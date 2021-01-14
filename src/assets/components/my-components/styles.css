@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(to right, #c39a2d, #a5cc82);
+}
+
+@font-face {
+  font-family: 'Herculanum';
+  src: url('Herculanum.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: #060126;
+  font-family: 'Herculanum', serif;
+  /*background-image: url("./icon.png");*/
+}
+
+
+
+/* KSS Style Sheet Comment */
+/*
+Media
+
+Displays images and/or body content beside one
+another.
+
+Markup:
+<div class="media">
+  <img class="media__image" src="http://placehold.it/150x150" />
+  <div class="media__body">
+    <h4>Strength</h4>
+    <p>
+      Strength training is an important part of
+      injury prevention. Focus on your core&mdash;
+      especially your abs and glutes.
+    </p>
+  </div>
+</div>
+<div class="media">
+  <img class="media__image"
+    src="http://placehold.it/150x150" />
+  <div class="media__body">
+    <h4>Strength</h4>
+    <p>
+      Strength training is an important part of
+      injury prevention. Focus on your core&mdash;
+      especially your abs and glutes.
+    </p>
+  </div>
+  <img class="media__image"
+    src="http://placehold.it/150x150" />
+</div>
+
+Styleguide Media
+*/
+.media {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5em;
+  background-color: #eee;
+  border-radius: 0.5em;
+}
+
+.media > * + * {
+  margin-left: 1.5em;
+}
+
+.media__body {
+  margin-top: 0;
+}
+
+.media__body > h4 {
+  margin-top: 0;
+}
+
+.media--right {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,45 @@
+  $gradient: linear-gradient(to right, #00467f, #a5cc82);
+  body{
+    width: 100%;
+    background-image: $gradient;
+  }
+
+  .wrapper {
+    width: 210px;
+    margin: 30px auto 10px;
+    text-align: center;
+  }
+
+  .wrapper h1 {
+    color: #3B0F25;
+    font-family: PlayfairDisplay-Regular, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.1em;
+  }
+
+  .wrapper h2 {
+    color: #3B0F25;
+    font-family: PlayfairDisplay-Regular, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8em;
+  }
+
+  .wrapper img {
+    padding-top: 20px;
+  }
+
+  .wrapper p {
+    margin-top: 30px;
+  }
+
+  .wrapper button {
+    color: #3B0F25;
+    background-color: #cfe5c7;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+
+
