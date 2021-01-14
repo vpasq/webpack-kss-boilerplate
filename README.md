@@ -9,7 +9,8 @@ A basic webpack boilerplate.
 3. cd webpack-kss-boilerplate
 4. npm install
 5. npm run build
-6. npm kss
+6. npm run kss
+7. open docs/index.html
 ```
 
 ### Version
