@@ -1,5 +1,5 @@
 ### webpack Boilerplate 
-A basic webpack boilerplate.
+A basic webpack / KSS (Knyle Style Sheet) boilerplate.
 
 
 ### Setup 
