@@ -24,7 +24,7 @@ function component() {
   div.appendChild(h1);
 
   const h2 = document.createElement('h2');
-  h2.innerHTML = 'Now, its Time for Coffee!';
+  h2.innerHTML = 'Now, its Time for Coffee.';
   div.appendChild(h2);
 
   // Create an Image tag.
