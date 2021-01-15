@@ -68,7 +68,7 @@ module.exports = {
     // This is especially useful for webpack bundles that include a hash
     // in the filename which changes every compilation.
     new HtmlWebpackPlugin({
-      title: 'webpack Boilerplate',
+      title: 'webpack-kss-boilerplate',
       favicon: paths.src + '/img/favicon.svg',
       template: paths.src + '/html/template.html',
       filename: 'index.html'
