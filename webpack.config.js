@@ -185,13 +185,9 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [
-      new TerserJSPlugin({
-        terserOptions: {
-          output: {
-            comments: false
-          }
-        },
-        extractComments: false
+      new TerserPlugin({
+        // true for production, false for development
+        extractComments: true
       }),
       new CssMinimizerPlugin(), '...'
     ],
